@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E28FFFB61CDC977D002C242F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E28FFFB51CDC977D002C242F /* main.m */; };
+		E28FFFB91CDC977D002C242F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E28FFFB81CDC977D002C242F /* AppDelegate.m */; };
+		E28FFFBC1CDC977D002C242F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E28FFFBB1CDC977D002C242F /* ViewController.m */; };
+		E28FFFBF1CDC977D002C242F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E28FFFBD1CDC977D002C242F /* Main.storyboard */; };
+		E28FFFC11CDC977D002C242F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E28FFFC01CDC977D002C242F /* Assets.xcassets */; };
+		E28FFFC41CDC977D002C242F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E28FFFC21CDC977D002C242F /* LaunchScreen.storyboard */; };
+		E28FFFCF1CDC977D002C242F /* kudansamplesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E28FFFCE1CDC977D002C242F /* kudansamplesTests.m */; };
+		E28FFFDA1CDC977D002C242F /* kudansamplesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E28FFFD91CDC977D002C242F /* kudansamplesUITests.m */; };
+		E28FFFE81CDC9801002C242F /* KudanAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E28FFFE71CDC9801002C242F /* KudanAR.framework */; };
+		E28FFFEC1CDC980C002C242F /* ben.armodel in Resources */ = {isa = PBXBuildFile; fileRef = E28FFFE91CDC980C002C242F /* ben.armodel */; };
+		E28FFFEE1CDC980C002C242F /* target.png in Resources */ = {isa = PBXBuildFile; fileRef = E28FFFEB1CDC980C002C242F /* target.png */; };
+		E28FFFF11CDC98F7002C242F /* ARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E28FFFF01CDC98F7002C242F /* ARViewController.m */; };
+		E28FFFF31CDCA20A002C242F /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E28FFFF21CDCA20A002C242F /* libc++.tbd */; };
+		E28FFFF51CDCA2F3002C242F /* bigBenTexture.png in Resources */ = {isa = PBXBuildFile; fileRef = E28FFFF41CDCA2F3002C242F /* bigBenTexture.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E28FFFCB1CDC977D002C242F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E28FFFA91CDC977D002C242F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E28FFFB01CDC977D002C242F;
+			remoteInfo = kudansamples;
+		};
+		E28FFFD61CDC977D002C242F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E28FFFA91CDC977D002C242F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E28FFFB01CDC977D002C242F;
+			remoteInfo = kudansamples;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E28FFFB11CDC977D002C242F /* ArbiTrackTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArbiTrackTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E28FFFB51CDC977D002C242F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E28FFFB71CDC977D002C242F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E28FFFB81CDC977D002C242F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E28FFFBA1CDC977D002C242F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E28FFFBB1CDC977D002C242F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E28FFFBE1CDC977D002C242F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E28FFFC01CDC977D002C242F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E28FFFC31CDC977D002C242F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E28FFFC51CDC977D002C242F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E28FFFCA1CDC977D002C242F /* ArbiTrackTutorial.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArbiTrackTutorial.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E28FFFCE1CDC977D002C242F /* kudansamplesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kudansamplesTests.m; sourceTree = "<group>"; };
+		E28FFFD01CDC977D002C242F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E28FFFD51CDC977D002C242F /* ArbiTrackTutorial.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArbiTrackTutorial.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E28FFFD91CDC977D002C242F /* kudansamplesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kudansamplesUITests.m; sourceTree = "<group>"; };
+		E28FFFDB1CDC977D002C242F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E28FFFE71CDC9801002C242F /* KudanAR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KudanAR.framework; sourceTree = "<group>"; };
+		E28FFFE91CDC980C002C242F /* ben.armodel */ = {isa = PBXFileReference; lastKnownFileType = file; name = ben.armodel; path = Assets/ben.armodel; sourceTree = "<group>"; };
+		E28FFFEB1CDC980C002C242F /* target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = target.png; path = Assets/target.png; sourceTree = "<group>"; };
+		E28FFFEF1CDC98F7002C242F /* ARViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARViewController.h; sourceTree = "<group>"; };
+		E28FFFF01CDC98F7002C242F /* ARViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARViewController.m; sourceTree = "<group>"; };
+		E28FFFF21CDCA20A002C242F /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		E28FFFF41CDCA2F3002C242F /* bigBenTexture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bigBenTexture.png; path = Assets/bigBenTexture.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E28FFFAE1CDC977D002C242F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28FFFF31CDCA20A002C242F /* libc++.tbd in Frameworks */,
+				E28FFFE81CDC9801002C242F /* KudanAR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28FFFC71CDC977D002C242F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28FFFD21CDC977D002C242F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E28FFFA81CDC977D002C242F = {
+			isa = PBXGroup;
+			children = (
+				E28FFFF41CDCA2F3002C242F /* bigBenTexture.png */,
+				E28FFFF21CDCA20A002C242F /* libc++.tbd */,
+				E28FFFE91CDC980C002C242F /* ben.armodel */,
+				E28FFFEB1CDC980C002C242F /* target.png */,
+				E28FFFE71CDC9801002C242F /* KudanAR.framework */,
+				E28FFFB31CDC977D002C242F /* kudansamples */,
+				E28FFFCD1CDC977D002C242F /* kudansamplesTests */,
+				E28FFFD81CDC977D002C242F /* kudansamplesUITests */,
+				E28FFFB21CDC977D002C242F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E28FFFB21CDC977D002C242F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E28FFFB11CDC977D002C242F /* ArbiTrackTutorial.app */,
+				E28FFFCA1CDC977D002C242F /* ArbiTrackTutorial.xctest */,
+				E28FFFD51CDC977D002C242F /* ArbiTrackTutorial.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E28FFFB31CDC977D002C242F /* kudansamples */ = {
+			isa = PBXGroup;
+			children = (
+				E28FFFB71CDC977D002C242F /* AppDelegate.h */,
+				E28FFFB81CDC977D002C242F /* AppDelegate.m */,
+				E28FFFBA1CDC977D002C242F /* ViewController.h */,
+				E28FFFBB1CDC977D002C242F /* ViewController.m */,
+				E28FFFBD1CDC977D002C242F /* Main.storyboard */,
+				E28FFFEF1CDC98F7002C242F /* ARViewController.h */,
+				E28FFFF01CDC98F7002C242F /* ARViewController.m */,
+				E28FFFC01CDC977D002C242F /* Assets.xcassets */,
+				E28FFFC21CDC977D002C242F /* LaunchScreen.storyboard */,
+				E28FFFC51CDC977D002C242F /* Info.plist */,
+				E28FFFB41CDC977D002C242F /* Supporting Files */,
+			);
+			path = kudansamples;
+			sourceTree = "<group>";
+		};
+		E28FFFB41CDC977D002C242F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E28FFFB51CDC977D002C242F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E28FFFCD1CDC977D002C242F /* kudansamplesTests */ = {
+			isa = PBXGroup;
+			children = (
+				E28FFFCE1CDC977D002C242F /* kudansamplesTests.m */,
+				E28FFFD01CDC977D002C242F /* Info.plist */,
+			);
+			path = kudansamplesTests;
+			sourceTree = "<group>";
+		};
+		E28FFFD81CDC977D002C242F /* kudansamplesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E28FFFD91CDC977D002C242F /* kudansamplesUITests.m */,
+				E28FFFDB1CDC977D002C242F /* Info.plist */,
+			);
+			path = kudansamplesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E28FFFB01CDC977D002C242F /* ArbiTrackTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E28FFFDE1CDC977D002C242F /* Build configuration list for PBXNativeTarget "ArbiTrackTutorial" */;
+			buildPhases = (
+				E28FFFAD1CDC977D002C242F /* Sources */,
+				E28FFFAE1CDC977D002C242F /* Frameworks */,
+				E28FFFAF1CDC977D002C242F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArbiTrackTutorial;
+			productName = kudansamples;
+			productReference = E28FFFB11CDC977D002C242F /* ArbiTrackTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E28FFFC91CDC977D002C242F /* ArbiTrackTutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E28FFFE11CDC977D002C242F /* Build configuration list for PBXNativeTarget "ArbiTrackTutorialTests" */;
+			buildPhases = (
+				E28FFFC61CDC977D002C242F /* Sources */,
+				E28FFFC71CDC977D002C242F /* Frameworks */,
+				E28FFFC81CDC977D002C242F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E28FFFCC1CDC977D002C242F /* PBXTargetDependency */,
+			);
+			name = ArbiTrackTutorialTests;
+			productName = kudansamplesTests;
+			productReference = E28FFFCA1CDC977D002C242F /* ArbiTrackTutorial.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E28FFFD41CDC977D002C242F /* ArbiTrackTutorialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E28FFFE41CDC977D002C242F /* Build configuration list for PBXNativeTarget "ArbiTrackTutorialUITests" */;
+			buildPhases = (
+				E28FFFD11CDC977D002C242F /* Sources */,
+				E28FFFD21CDC977D002C242F /* Frameworks */,
+				E28FFFD31CDC977D002C242F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E28FFFD71CDC977D002C242F /* PBXTargetDependency */,
+			);
+			name = ArbiTrackTutorialUITests;
+			productName = kudansamplesUITests;
+			productReference = E28FFFD51CDC977D002C242F /* ArbiTrackTutorial.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E28FFFA91CDC977D002C242F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Tom Smith";
+				TargetAttributes = {
+					E28FFFB01CDC977D002C242F = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = H3J97PEGY7;
+						DevelopmentTeamName = "Kudan Limited";
+						ProvisioningStyle = Manual;
+					};
+					E28FFFC91CDC977D002C242F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E28FFFB01CDC977D002C242F;
+					};
+					E28FFFD41CDC977D002C242F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E28FFFB01CDC977D002C242F;
+					};
+				};
+			};
+			buildConfigurationList = E28FFFAC1CDC977D002C242F /* Build configuration list for PBXProject "ArbiTrackTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E28FFFA81CDC977D002C242F;
+			productRefGroup = E28FFFB21CDC977D002C242F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E28FFFB01CDC977D002C242F /* ArbiTrackTutorial */,
+				E28FFFC91CDC977D002C242F /* ArbiTrackTutorialTests */,
+				E28FFFD41CDC977D002C242F /* ArbiTrackTutorialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E28FFFAF1CDC977D002C242F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28FFFC41CDC977D002C242F /* LaunchScreen.storyboard in Resources */,
+				E28FFFC11CDC977D002C242F /* Assets.xcassets in Resources */,
+				E28FFFEE1CDC980C002C242F /* target.png in Resources */,
+				E28FFFEC1CDC980C002C242F /* ben.armodel in Resources */,
+				E28FFFF51CDCA2F3002C242F /* bigBenTexture.png in Resources */,
+				E28FFFBF1CDC977D002C242F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28FFFC81CDC977D002C242F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28FFFD31CDC977D002C242F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E28FFFAD1CDC977D002C242F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28FFFBC1CDC977D002C242F /* ViewController.m in Sources */,
+				E28FFFB91CDC977D002C242F /* AppDelegate.m in Sources */,
+				E28FFFB61CDC977D002C242F /* main.m in Sources */,
+				E28FFFF11CDC98F7002C242F /* ARViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28FFFC61CDC977D002C242F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28FFFCF1CDC977D002C242F /* kudansamplesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28FFFD11CDC977D002C242F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28FFFDA1CDC977D002C242F /* kudansamplesUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E28FFFCC1CDC977D002C242F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E28FFFB01CDC977D002C242F /* ArbiTrackTutorial */;
+			targetProxy = E28FFFCB1CDC977D002C242F /* PBXContainerItemProxy */;
+		};
+		E28FFFD71CDC977D002C242F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E28FFFB01CDC977D002C242F /* ArbiTrackTutorial */;
+			targetProxy = E28FFFD61CDC977D002C242F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E28FFFBD1CDC977D002C242F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E28FFFBE1CDC977D002C242F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E28FFFC21CDC977D002C242F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E28FFFC31CDC977D002C242F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E28FFFDC1CDC977D002C242F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E28FFFDD1CDC977D002C242F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E28FFFDF1CDC977D002C242F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = kudansamples/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.kudan.kudansamples;
+				PRODUCT_NAME = ArbiTrackTutorial;
+			};
+			name = Debug;
+		};
+		E28FFFE01CDC977D002C242F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = kudansamples/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.kudan.kudansamples;
+				PRODUCT_NAME = ArbiTrackTutorial;
+			};
+			name = Release;
+		};
+		E28FFFE21CDC977D002C242F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kudansamplesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.kudan.kudansamplesTests;
+				PRODUCT_NAME = ArbiTrackTutorial;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArbiTrackTutorial.app/ArbiTrackTutorial";
+			};
+			name = Debug;
+		};
+		E28FFFE31CDC977D002C242F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kudansamplesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.kudan.kudansamplesTests;
+				PRODUCT_NAME = ArbiTrackTutorial;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArbiTrackTutorial.app/ArbiTrackTutorial";
+			};
+			name = Release;
+		};
+		E28FFFE51CDC977D002C242F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = kudansamplesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.kudan.kudansamplesUITests;
+				PRODUCT_NAME = ArbiTrackTutorial;
+				TEST_TARGET_NAME = kudansamples;
+			};
+			name = Debug;
+		};
+		E28FFFE61CDC977D002C242F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = kudansamplesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.kudan.kudansamplesUITests;
+				PRODUCT_NAME = ArbiTrackTutorial;
+				TEST_TARGET_NAME = kudansamples;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E28FFFAC1CDC977D002C242F /* Build configuration list for PBXProject "ArbiTrackTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E28FFFDC1CDC977D002C242F /* Debug */,
+				E28FFFDD1CDC977D002C242F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E28FFFDE1CDC977D002C242F /* Build configuration list for PBXNativeTarget "ArbiTrackTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E28FFFDF1CDC977D002C242F /* Debug */,
+				E28FFFE01CDC977D002C242F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E28FFFE11CDC977D002C242F /* Build configuration list for PBXNativeTarget "ArbiTrackTutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E28FFFE21CDC977D002C242F /* Debug */,
+				E28FFFE31CDC977D002C242F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E28FFFE41CDC977D002C242F /* Build configuration list for PBXNativeTarget "ArbiTrackTutorialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E28FFFE51CDC977D002C242F /* Debug */,
+				E28FFFE61CDC977D002C242F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E28FFFA91CDC977D002C242F /* Project object */;
+}
