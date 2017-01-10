@@ -452,7 +452,7 @@
 				INFOPLIST_FILE = kudansamples/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = eu.kudan.kudansamples;
+				PRODUCT_BUNDLE_IDENTIFIER = eu.kudan.ar;
 				PRODUCT_NAME = ArbiTrackTutorial;
 			};
 			name = Debug;
@@ -469,7 +469,7 @@
 				INFOPLIST_FILE = kudansamples/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = eu.kudan.kudansamples;
+				PRODUCT_BUNDLE_IDENTIFIER = eu.kudan.ar;
 				PRODUCT_NAME = ArbiTrackTutorial;
 			};
 			name = Release;
